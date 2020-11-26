@@ -10,10 +10,9 @@
 </head>
 
 <body>
-    <header class="header" id="header">
-        <a href="#">
-            <img class="header-logo" src="/images/logo.png" alt="DLK logo" height="52" width="100">
-        </a>
+    <header class="header">
+        <a class="header-button" href="#"><img class="header-logo" src="/images/logo.png" alt="DLK logo" height="52"
+                width="100"></a>
         <nav class="header-nav">
             <ul class="header-nav-list">
                 <li class="header-nav-link"><a href="#">Blog</a></li>
@@ -21,45 +20,50 @@
                 <li class="header-nav-link"><a href="#">About Us</a></li>
             </ul>
         </nav>
-        <ul class="header-nav">
+        <ul class="header-nav-link">
             <li class="header-nav">
-                <img class="header-img" src="images/Search.png" alt="#">
-                <a class="button" href="/contact.html">Contact Us</a>
+                <button class="header-button"><img class="header-img" src="images/Search.png" alt="#"></button>
+                <a class="header-button" href="/contact.html">Contact Us</a>
             </li>
         </ul>
     </header>
-    <main>
+    <main class="content">
         <section class="poster">
-            <p class="poster-text">01</p>
-            <ul class="poster">
-                <li class="poster">
-                    <a class="button"><img class="poster-img" src="images/strip1.png" alt="#" height="3" width="31"></a>
-                </li>
-                <li class="poster">
-                    <a class="button"><img class="poster-img" src="images/strip2.png" alt="#" height="3" width="31"></a>
-                </li>
-                <li class="poster">
-                    <a class="button"><img class="poster-img" src="images/strip3.png" alt="#" height="3" width="31"></a>
-                </li>
-                <li class="poster">
-                    <a class="button"><img class="poster-img" src="images/strip4.png" alt="#" height="3" width="31"></a>
-                </li>
-            </ul>
-            <h2 class="poster-title">The ooh noo collection</h2>
-            <p class="title">Designed in Slovenia</p>
-            <button class="poster-button button_blak" type="button"><img class="poster-img" src="images/button1.png"
-                    alt="#" height="40" width="161"></button>
-            <ul class="poster">
-                <li class="poster-card">
-                    <img class="poster-card-img" src="images/toy.png" alt="#" height="461" width="636">
-                </li>
-            </ul>
-            <p class="poster-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            <div class="poster-nav-bars">
+                <p class="poster-text">01</p>
+                <ul class="poster-nav-link">
+                    <li class="poster-nav">
+                        <button class="poster-button"><img class="poster-img" src="images/strip1.png" alt="#" height="3"
+                                width="31"></button>
+                    </li>
+                    <li class="poster-nav">
+                        <button class="poster-button"><img class="poster-img" src="images/strip2.png" alt="#" height="3"
+                                width="31"></button>
+                    </li>
+                    <li class="poster-nav">
+                        <button class="poster-button"><img class="poster-img" src="images/strip3.png" alt="#" height="3"
+                                width="31"></button>
+                    </li>
+                    <li class="poster-nav">
+                        <button class="poster-button"><img class="poster-img" src="images/strip4.png" alt="#" height="3"
+                                width="31"></button>
+                    </li>
+                </ul>
+                <h2 class="poster-title">The ooh noo collection</h2>
+                <p class="poster-text">Designed in Slovenia</p>
+                <button class="poster-button">EXPLORE NOW</button>
+                <ul class="poster-nav-card">
+                    <li class="poster-card">
+                        <img class="poster-img" src="images/toy.png" alt="#" height="461" width="636">
+                    </li>
+                </ul>
+                <p class="poster-text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            </div>
         </section>
         <section class="services">
             <div class="services">
                 <h2 class="services-title">Category Products</h2>
-                <ul class="services-card">
+                <ul class="services-nav-card">
                     <li class="service-card">
                         <img class="service-card-img" src="images/image.png" alt="APPAREL KIDS" height="177"
                             width="244">
@@ -92,18 +96,18 @@
             <div class="whu-us">
                 <h2 class="whu-us-title">Delivery</h2>
                 <ul class="whu-us-card">
-                    <li class="card">
-                        <a class="button" href="#">Delivery</a>
+                    <li class="whu-us-link">
+                        <a class="whu-us-button" href="#">Delivery</a>
                     </li>
                 </ul>
                 <ul class="whu-us-card">
-                    <li class="card">
-                        <a class="button" href="#">Guarantee</a>
+                    <li class="whu-us-link">
+                        <a class="whu-us-button" href="#">Guarantee</a>
                     </li>
                 </ul>
                 <ul class="whu-us-card">
-                    <li class="card">
-                        <a class="button" href="#">Credit</a>
+                    <li class="whu-us-link">
+                        <a class="whu-us-button" href="#">Credit</a>
                     </li>
                 </ul>
             </div>
@@ -112,90 +116,101 @@
             <p class="whu-us-text">What started as an outlet to deal with the traumatic loss of my husband, dlk has now
                 become a truly happy place for me and i have you and all of the beautiful designers that we work with
                 to thank!</p>
-            <button class="whu-us-button button_blak"><img class="whu-us-img" src="images/button2.png" alt="#"
-                    height="40" width="149"></button>
+            <button class="whu-us-button button_blak">LEARN MORE</button>
         </section>
         <section class="partners">
             <div class="partners">
                 <h2 class="partners-title">Partners</h2>
                 <ul class="partners-card">
                     <li class="partners-card">
-                        <a class="button" href="#"><img class="partners-card-img" src="images/img-@Mail.ru.png"
+                        <a class="partners-button" href="#"><img class="partners-card-img" src="images/img-@Mail.ru.png"
                                 alt="mail.ru" height="60" width="193"></a>
                     </li>
                     <li class="partners-card">
-                        <a class="button" href="#"><img class="partners-card-img" src="images/img-Apple.png" alt="apple"
-                                height="61" width="179"></a>
+                        <a class="partners-button" href="#"><img class="partners-card-img" src="images/img-Apple.png"
+                                alt="apple" height="61" width="179"></a>
                     </li>
                     <li class="partners-card">
-                        <a class="button" href="#"><img class="partners-card-img" src="images/img-eltex.png" alt="eltex"
-                                height="46" width="216"></a>
+                        <a class="partners-button" href="#"><img class="partners-card-img" src="images/img-eltex.png"
+                                alt="eltex" height="46" width="216"></a>
                     </li>
                     <li class="partners-card">
-                        <a class="button" href="#"><img class="partners-card-img" src="images/img-owox.png" alt="owox"
-                                height="40" width="211"></a>
+                        <a class="partners-button" href="#"><img class="partners-card-img" src="images/img-owox.png"
+                                alt="owox" height="40" width="211"></a>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="map">
-            <h2 class="map-title">Design life kids</h2>
-            <a class="button" href="#">About Us</a>
-            <p class="map-text">Some days i feel like i've been working on dlk my entire life and there are other days
-                that
-                i am completely shocked that four years have flown by. It's simply magical.</p>
-            <button class="map-button button_blak"><img class="map-img" src="images/button3.png" alt="#" height="40"
-                    width="123"></button>
-            <h2 class="map-title">Contacts</h2>
-            <p class="map-text">Some days i feel like i've been working on dlk my entire life and there are other days
-                that
-                i am completely shocked that four years have flown by. It's simply magical.</p>
-            <img class="map-img" src="images/card.png" alt="#" height="196" width="483">
+            <div class="map-card">
+                <ul class="map-nav-link">
+                    <li class="map-nav">
+                        <h2 class="map-title">Design life kids</h2>
+                        <a class="map-button" href="#">About Us</a>
+                        <p class="map-text">Some days i feel like i've been working on dlk my entire life and there are
+                            other days
+                            that
+                            i am completely shocked that four years have flown by. It's simply magical.</p>
+                        <button class="map-button button_blak">buy now</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="map-card">
+                <ul class="map-nav-link">
+                    <li class="map-nav">
+                        <h2 class="map-title">Contacts</h2>
+                        <p class="map-text">Some days i feel like i've been working on dlk my entire life and there are
+                            other days
+                            that
+                            i am completely shocked that four years have flown by. It's simply magical.</p>
+                        <img class="map-img" src="images/card.png" alt="#" height="196" width="483">
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer">
+        <div class="footer-list">
             <h1 class="footer-title">Navigation</h1>
-            <ul class="footer-nav-link">
-                <li class="nav-link"><a class="button" href="#">About Us</a></li>
-                <li class="nav-link"><a class="button" href="#">Blog</a></li>
-                <li class="nav-link"><a class="button" href="#">Design Services</a></li>
-                <li class="nav-link"><a class="button" href="#">Featured On</a></li>
-                <li class="nav-link"><a class="button" href="#">Ab2018 Holiday Catalogout</a></li>
-                <li class="nav-link"><a class="button" href="#">Shop By Designer</a></li>
+            <ul class="footer-nav-list">
+                <li class="footer-link"><a class="footer-button" href="#">About Us</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Blog</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Design Services</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Featured On</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Ab2018 Holiday Catalogout</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Shop By Designer</a></li>
             </ul>
         </div>
-        <div class="footer">
+        <div class="footer-list">
             <h2 class="footer-title">Customer Information</h2>
-            <ul class="footer-nav-link">
-                <li class="nav-link"><a class="button" href="#">Contact Us</a></li>
-                <li class="nav-link"><a class="button" href="#">Sale Exclusions</a></li>
-                <li class="nav-link"><a class="button" href="#">Shipping & Returns</a></li>
-                <li class="nav-link"><a class="button" href="#">Terms & Conditions</a></li>
-                <li class="nav-link"><a class="button" href="#">Privacy Policy</a></li>
-                <li class="nav-link"><a class="button" href="#">Search</a></li>
+            <ul class="footer-nav-list">
+                <li class="footer-link"><a class="footer-button" href="#">Contact Us</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Sale Exclusions</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Shipping & Returns</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Terms & Conditions</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Privacy Policy</a></li>
+                <li class="footer-link"><a class="footer-button" href="#">Search</a></li>
             </ul>
         </div>
         <h2 class="footer-title">Connect</h2>
         <form class="footer-form" action="#" method="post">
-            <input class="footer-list" type="email" placeholder="Email">
-            <button class="footer-button"><img class="footer-img" src="images/button.png" alt="#" height="40"
-                    width="81"></button>
+            <input class="footer-input" type="email" placeholder="Email">
+            <button class="footer-button">Join</button>
         </form>
         <div class="footer-social">
-            <ul class="footer-link">
-                <li class="link"><a class="button" href="#"><img class="footer-img" src="social-1.png"
+            <ul class="footer-nav-link">
+                <li class="footer-link"><a class="footer-button" href="#"><img class="footer-img" src="social-1.png"
                             alt="social-1.png"></a></li>
-                <li class="link"><a class="button" href="#"><img class="footer-img" src="social-1.png"
+                <li class="footer-link"><a class="footer-button" href="#"><img class="footer-img" src="social-1.png"
                             alt="social-1.png"></a></li>
-                <li class="link"><a class="button" href="#"><img class="footer-img" src="social-1.png"
+                <li class="footer-link"><a class="footer-button" href="#"><img class="footer-img" src="social-1.png"
                             alt="social-1.png"></a></li>
-                <li class="link"><a class="button" href="#"><img class="footer-img" src="social-1.png"
+                <li class="footer-link"><a class="footer-button" href="#"><img class="footer-img" src="social-1.png"
                             alt="social-1.png"></a></li>
             </ul>
         </div>
         <div class="footer-rating">
-            <ul>
+            <ul class="footer-link">
                 <li class="link">
                     <a class="button" href="#">Copyright © 2018 Dlk • Design Life Kids</a>
                 </li>
