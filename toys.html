@@ -45,63 +45,45 @@
                 <h2 class="sidebar-title visually-hidden">Sidebar</h2>
                 <form class="sidebar-form" action="#">
                     <fieldset>
-                            <legend class="sidebar-title">Cost</legend>
-                            <div class="sidebar-slider"><svg width="188" height="4" viewBox="0 0 188 4" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.5" width="188" height="4" fill="black" />
-                                </svg>
-                            </div>
-                            <div class="sidebar-slider">
-                                <svg width="46" height="4" viewBox="0 0 46 4" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect width="46" height="4" fill="#C29974" />
-                                </svg>
-                            </div>
-                            <div class="sidebar-slider">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="12" cy="12" r="12" fill="#C29974" />
-                                </svg>
-                            </div>
-                            <div class="sidebar-slider">
-                                <svg width="8" height="8" viewBox="0 0 8 8" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="3.99995" cy="3.99995" r="3.65217" fill="white" />
-                                </svg>
-                            </div>
-                            <p class="sidebar-text">0</p>
-                            <p class="sidebar-text">500</p>
+                        <legend class="sidebar-title">Cost</legend>
+                        <div class="sidebar-slider"></div>
+                        <div class="sidebar-slider"></div>
+                        <div class="sidebar-slider"></div>
+                        <p class="sidebar-text">0</p>
+                        <p class="sidebar-text">500</p>
                     </fieldset>
-                    <div class="sidebar-color">
-                        <h2 class="sidebar-title">Color</h2>
-                        <ul class="sidebar-list">
-                            <li class="sidebar-link">
-                                <label class="sidebar-color">
-                                    <input class="color" name="Black" type="checkbox">
-                                    Black
-                                </label>
-                            </li>
-                            <li class="sidebar-link">
-                                <label class="sidebar-color">
-                                    <input class="color" name="Blue" type="checkbox">
-                                    Blue
-                                </label>
-                            </li>
-                            <li class="sidebar-link">
-                                <label class="sidebar-color">
-                                    <input class="color" name="Green" type="checkbox">
-                                    Green
-                                </label>
-                            </li>
-                            <li class="sidebar-link">
-                                <label class="sidebar-color">
-                                    <input class="color" name="White" type="checkbox">
-                                    White
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="sidebar-delivery">
+                    <fieldset>
+                        <div class="sidebar-color">
+                            <h2 class="sidebar-title">Color</h2>
+                            <ul class="sidebar-list">
+                                <li class="sidebar-item">
+                                    <label class="sidebar-color">
+                                        <input class="color" name="Black" type="checkbox">
+                                        Black
+                                    </label>
+                                </li>
+                                <li class="sidebar-item">
+                                    <label class="sidebar-color">
+                                        <input class="color" name="Blue" type="checkbox">
+                                        Blue
+                                    </label>
+                                </li>
+                                <li class="sidebar-item">
+                                    <label class="sidebar-color">
+                                        <input class="color" name="Green" type="checkbox">
+                                        Green
+                                    </label>
+                                </li>
+                                <li class="sidebar-item">
+                                    <label class="sidebar-color">
+                                        <input class="color" name="White" type="checkbox">
+                                        White
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                    <fieldset>
                         <h2 class="sidebar-title">Delivery</h2>
                         <label class="sidebar-delivery">
                             <input name="Delivery" type="radio" value="Free shipping">
@@ -111,27 +93,26 @@
                             <input name="Delivery" type="radio" value="Fast shipping">
                             Fast shipping
                         </label>
+                    </fieldset>
+                    <fieldset class="sidebar-nav-list">
                         <h2 class="sidebar-title">Amount</h2>
-                        <fieldset class="sidebar-nav-list">
-                            <ul class="sidebar-list">
-                                <li class="sidebar-link">
-                                    <input class="sidebar-placeholder" type="text" placeholder="0-5"
-                                        style="margin: -5px; background-color:  #F3D0DB;">
-                                </li>
-                                <li>
-                                    <input class="sidebar-placeholder" type="text" placeholder="10-20"
-                                        style="margin: -5px; background-color:  #FFFFFF;">
-                                </li>
-                                <li>
-                                    <input class="sidebar-placeholder" type="text" placeholder="20-50"
-                                        style="margin: -5px; background-color:  #FFFFFF;">
-                                </li>
-                            </ul>
-                        </fieldset>
-                    </div>
-                    <div class="sidebar-button">
-                        <button class="poater-button button">Apply</button>
-                    </div>
+                        <ul class="sidebar-list">
+                            <li class="sidebar-link">
+                                <input class="sidebar-placeholder" type="text" placeholder="0-5">
+                            </li>
+                            <li>
+                                <input class="sidebar-placeholder" type="text" placeholder="10-20">
+                            </li>
+                            <li>
+                                <input class="sidebar-placeholder" type="text" placeholder="20-50">
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <div class="sidebar-button">
+                            <button class="button">Apply</button>
+                        </div>
+                    </fieldset>
                 </form>
             </div>
         </section>
@@ -141,42 +122,42 @@
                 <ul class="catalog-list">
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image1.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image1.png" alt="" height="385" width="380">
                             <p class="catalog-text">SHARKY BEAN BAG CHAIR COVER</p>
                             <p class="catalog-button">$60.00 USD</p>
                         </a>
                     </li>
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image2.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image2.png" alt="" height="385" width="380">
                             <p class="catalog-text">BRASS DECO FRAMES</p>
                             <p class="catalog-button">$66.00 USD</p>
                         </a>
                     </li>
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image3.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image3.png" alt="" height="385" width="380">
                             <p class="catalog-text">CIBO FULL APRON</p>
                             <p class="catalog-button">$60.00 USD</p>
                         </a>
                     </li>
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image4.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image4.png" alt="" height="385" width="380">
                             <p class="catalog-text">GATCHA GATCHA GUMBALL MACHINE</p>
                             <p class="catalog-button">$56.00 USD</p>
                         </a>
                     </li>
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image5.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image5.png" alt="" height="385" width="380">
                             <p class="catalog-text">SHARKY BEAN BAG CHAIR COVER</p>
                             <p class="catalog-button">$29.00 USD</p>
                         </a>
                     </li>
                     <li class="catalog-item">
                         <a class="catalog-link" href="#">
-                            <img class="catalog-img" src="images/image6.png" alt="#" height="385" width="380">
+                            <img class="catalog-img" src="images/image6.png" alt="" height="385" width="380">
                             <p class="catalog-text">TANGLE SPINNING TEA LIGHT</p>
                             <p class="catalog-button">$56.00 USD</p>
                         </a>
