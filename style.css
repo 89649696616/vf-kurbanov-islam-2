@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    font-family: 'Crimson Text', Arial, serif;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+}
+
+.img {
+    max-width: 100
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 110px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000000;
+    text-decoration: none;
+    border: 0;
+}
+
+.header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-right: auto;
+}
+
+.header-nav-list {
+    list-style: none;
+}
+
+.header-nav-button {
+    font-size: 14px;
+    line-height: 19px;
+    color: #1E0606;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-button {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #1e0606;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.poster {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 128px;
+}
+
+.poster-wrapper {
+    width: 1180px;
+    background: #EEE4DB;
+}
+
+.poster-text {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.poster-list {
+    list-style: none;
+}
+
+.button_brown {
+    width: 31px;
+    height: 3px;
+    background: rgba(30, 6, 6, 0.6);
+}
+
+.poster-button {
+    width: 31px;
+    height: 3px;
+    color: #1E0606;
+}
+
+.poster-title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #1E0606;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: 500px;
+}
+
+.poster-nav-button {
+    font-size: 20px;
+    line-height: 25px;
+    font-style: italic;
+    font-weight: normal;
+    color: #1E0606;
+    font-family: 'Crimson Text', Arial, serif;
+    text-decoration: none;
+}
+
+.poster-card-button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    width: 161px;
+    height: 40px;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.poster-nav-text {
+    background: #C29974;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 1180px;
+    height: 40px;
+}
+
+.services {
+    margin: 0;
+    margin-top: 90px;
+}
+
+.services-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.services-list {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    width: 100px;
+    text-transform: uppercase;
+}
+
+.services-card-button {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.services-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    width: 550px;
+}
+
+.whu-us {
+    margin-top: 90px;
+}
+
+.whu-us-wrapper {
+    padding-right: 60px;
+    width: 50%;
+}
+
+.whu-us-title {
+    padding-top: 30px;
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.whu-us-link {
+    list-style: none;
+}
+
+.whu-us-nav-button {
+    font-family: 'Crimson Text', Arial, serif;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.whu-us-button {
+    font-family: 'Crimson Text', Arial, serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    text-decoration: none;
+    list-style: none;
+}
+
+.whu-us-text {
+    margin: 0;
+    width: 470px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.whu-us-card-button {
+    width: 149px;
+    height: 40px;
+    background: #000000;
+}
+
+.partners {
+    margin-top: 90px;
+}
+
+.partners-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.partners-card-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.map {
+    margin-top: 90px;
+}
+
+.map-wrapper {
+    background: #E1F0F7;
+    width: 543px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.map-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.map-button {
+    margin-top: 10px;
+    font-family: 'Crimson Text', Arial, serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    text-decoration: none;
+}
+
+.map-text {
+    width: 470px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.map-nav-button {
+    width: 123px;
+    height: 40px;
+    background: #000000;
+}
+
+.footer {
+    background: #434343;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-title {
+    margin-top: 100px;
+    margin-bottom: 52px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+.footer-input {
+    width: 380px;
+    height: 40px;
+    background: #666666;
+}
+
+.footer-card-button {
+    width: 81px;
+    height: 40px;
+    background: #000000;
+}
+
+.footer-link {
+    list-style: none;
+}
+
+.footer-button {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-rating-list {
+    list-style: none;
+    display: flex;
+}
